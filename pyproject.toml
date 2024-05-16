@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "social_media_manager"
+version = "0.1.0"
+description = "Social media management tool using Streamlit and CrewAI"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+streamlit = "^0.82.0"
+requests = "^2.25.1"
+python-dotenv = "^0.17.1"
+crewai = {git = "https://github.com/joaomdmoura/crewai.git"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
